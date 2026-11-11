@@ -1,26 +1,4 @@
-###for creating environment and playwright installation
-python -m venv venv
-venv\Scripts\activate
-pip install playwright
-playwright install
 
-
-
-
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-########
-
-
-pip install pytest playwright pytest-playwright
-playwright install
-pip install allure-pytest pytest-playwright
-pip install pytest-html
-
-######
-for generating the report use this command
-pytest  --html=report.html --self-contained-html
-
-#####3
 playwright
 pytest
 pytest-playwright
