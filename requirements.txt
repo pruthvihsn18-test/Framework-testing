@@ -19,3 +19,9 @@ pip install pytest-html
 ######
 for generating the report use this command
 pytest  --html=report.html --self-contained-html
+
+#####3
+playwright
+pytest
+pytest-playwright
+pytest-html
